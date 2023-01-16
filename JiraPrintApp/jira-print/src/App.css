@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+h1, h2, h3{
+  font-family: 'Red Hat Display', sans-serif;
+}
+h4{
+  font-family: 'Inter', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 90%;
+    margin: auto;
+}
+.story{
+  padding: 5px;
+  margin: 3px;
+}
+
+.logoHolder{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 16px 0px;
+}
+.logo{
+  width: 180px;
+  height: 40px;
+}
+#sprintGenerator{
+  text-align: center;
+}
+#sprintGenerator h1{
+  font-size: 60px;
+  letter-spacing: -1.2px;
+}
+#sprintGenerator h4{
+  color: rgba(0, 0, 0, 0.6);
+}
+.sprintSelect{
+  margin: 10px;
+}
+.sprintSelectText{
+font-weight: 300;
+font-size: 24px;
+line-height: 40px;
+}
+.btn{
+  padding: 24px 32px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+.primary{
+  background-color: #0077CC;
+  color: white;
+}
+.secondary{
+  color: #0077CC;
+  background: white;
+  border: 2px solid #0077CC;
+}
+#sprintDropdown{
+  display: flex;
+  justify-content: center;
+}
+#sprintSelect{
+  border-radius: 15px;
+  border: 1px solid grey;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 20px;
+  padding: 0px 25px 0px 25px;
+  cursor:pointer ;
+}
+#sprintBanner{
+  margin: auto;
+  border: 1px solid grey;
+  padding-left: 50px;
+  padding-bottom: 35px;
+}
+#sprintHeader{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sprintName{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: -1.2px
+}
+.sprintGoal{
+  font-size: 3vw;
+}
+#sprintInfo{
+  width: 60%;
+
+}
+.sprintControls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-top: 45px;
+}
+.controlIcon{
+  margin-right: 14px;
+}
+.sprintControls p{
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Inter', sans-serif;
+}
+
+#sprintImage{
+  width: 420px;
+  height: auto;
+}
+#sprintTimeHolder{
+  display: flex;
+}
+.sprintTime{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 13px 24px;
+  margin-right: 30px;
+  height: 98px;
+}
+.sprintImage{
+    margin-left: 50px;
+    display: block;
+    max-width:460px;
+    max-height:190px;
+  
+}
+.sprintTime img{
+  margin-right: 25px;
+}
+#sprintStart{
+  color: #138700;
+  background-color: #55D9401F;
+}
+#sprintEnd{
+  color: #FF416F;
+  background-color: rgba(255, 65, 111, 0.12);
+}
+.sprintTime h3{
+  font-size: 54px;
+}
+.sprintOption p{
+  font-family: 'Inter', sans-serif;
+}
+.tasksHolder{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tasksHolder p {
+  font-family: 'Red Hat Display', sans-serif;
+}
+ .task{
+  width: 50%; 
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid grey;
+  padding: 0 24px 15px 24px;
+}
+.taskHeader{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.taskEmoji{
+  display: flex;
+    align-items: center;
+}
+
+.taskHeader h3{
+  color: rgba(0, 0, 0, 0.54);
+}
+.taskSummary{
+  display: flex;
+  align-items: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0px;
+}
+.subtasksHolder{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.subtask{
+  flex-basis: 33.33%;
+  border: 1px solid grey;
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+}
+.subtaskColor{
+  min-height: 80px;
+  min-width: 5px;
+  width: 8px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.subtaskCount{
+  width: 52px;
+  height: 52px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-right: 10px;
+  margin-top:5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerText{
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Inter', sans-serif;
+}
+.bottom{
+  position: fixed;
+  bottom: 32px;
+}
+#checkIcon{
+  margin-right: 10px;
+}
+
+
+@media print {
+ .logoHolder, #sprintGenerator, .sprintControls, .footerText{
+  display: none;
+ }
+ #sprintBanner, .task, .subtask{
+  break-inside: avoid;
+ }
+ #sprintHeader{
+  margin-bottom: 0px;
+ }
+}
